@@ -1,4 +1,3 @@
-// Multi-level inheritance: Person → Student → CollegeStudent
 public class CollegeStudent extends Student {
     private String college;
 
@@ -9,7 +8,7 @@ public class CollegeStudent extends Student {
 
     public String getCollege() { return college; }
 
-    // Override getRole() again → Polymorphism
+    
     @Override
     public String getRole() {
         return "College Student";

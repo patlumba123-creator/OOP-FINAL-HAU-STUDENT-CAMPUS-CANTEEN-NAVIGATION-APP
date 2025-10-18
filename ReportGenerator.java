@@ -1,7 +1,7 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
-// Handles saving reports to CSV
+
 public class ReportGenerator {
     public static void generateCSV(Student student, Canteen canteen) {
         try (FileWriter writer = new FileWriter("canteen_report.csv", true)) {

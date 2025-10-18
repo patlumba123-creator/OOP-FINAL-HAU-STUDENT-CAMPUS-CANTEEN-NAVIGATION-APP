@@ -1,6 +1,5 @@
 import java.util.List;
 
-// Encapsulation: private fields with getters
 public class Canteen {
     private String name;
     private List<String> stores;

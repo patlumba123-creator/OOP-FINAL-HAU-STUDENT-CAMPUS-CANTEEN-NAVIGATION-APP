@@ -1,4 +1,3 @@
-// Student extends Person (Inheritance)
 public class Student extends Person {
     private int studentNumber;
     private String course;
@@ -6,7 +5,7 @@ public class Student extends Person {
     private String building;
 
     public Student(String name, int studentNumber, String course, String schoolLevel, String building) {
-        super(name); // call Person constructor
+        super(name); 
         this.studentNumber = studentNumber;
         this.course = course;
         this.schoolLevel = schoolLevel;
@@ -18,7 +17,7 @@ public class Student extends Person {
     public String getSchoolLevel() { return schoolLevel; }
     public String getBuilding() { return building; }
 
-    // Override getRole() → Polymorphism
+
     @Override
     public String getRole() {
         return "Student";
